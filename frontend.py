@@ -68,8 +68,8 @@ def main():
 	ti = timer()
 	ans = simulategifts(fam,algo)
 	tf = timer()
-	# fam.print_pretty(ans)
-	print 'Time elapsed: ',(tf-ti)
+	fam.print_pretty(ans)
+	# print 'Time elapsed: ',(tf-ti)
 	# for m in members:
 		# add a member to the members list
 
